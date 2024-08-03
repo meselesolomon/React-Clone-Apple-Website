@@ -1,0 +1,550 @@
+/* custom css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* header styele  */
+.outer-wrapper {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
+.header-wrapper {
+  background-color: #444445;
+  color: #fff;
+}
+.header-wrapper .internal-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-wrapper .internal-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+  
+.header-wrapper .internal-wrapper ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7em;
+  }
+
+.logo-link, .search-link, .cart-link {
+  width: 13px;
+  opacity: 0.8;
+}
+
+.header-wrapper ul li a:hover {
+  opacity: 1;
+}
+
+
+
+/* Main Highlight */
+.main-highlight-wrapper {
+	background: #fafafa;
+	text-align: center;
+	padding: 25px 0;
+}
+.links-wrapper ul {
+	list-style: none;
+}
+.model {
+	font-size: .85em;
+}
+.product-title {
+	font-weight: 700;
+	font-size: 56px;
+}
+.brief-description {
+	font-size: 2em;
+}
+.links-wrapper {
+	padding: 15px 0;
+}
+.links-wrapper ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.links-wrapper ul li a {
+	color: #06c;
+	text-decoration: none;
+}
+.links-wrapper ul li a:hover {
+	color: #000;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+/* ======= footer style=============  */
+/* .footer {
+    font-size: 0.7em;
+    color: black;
+    background-color: #F5F5F7;
+    margin-top: 30px;
+    width: 100%;
+} */
+
+/* a.btn {
+  border-radius: 80px;
+  text-decoration: none;
+}
+
+
+.shop ul {
+  display: block;
+  background-color: white;
+ 
+}
+
+.shop ul a {
+  color: black;
+  margin-left: 0;
+} */
+
+
+
+/* macbook air style  */
+.macbook__image {
+  background-image: url("../images/macbook_air_m3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1262px;
+  height: 580px;
+  background-size: 1262px 580px;
+  cursor: pointer;
+}
+
+.macbook {
+  display: inline-block;
+  justify-content: center;
+  background-color: #F5F5F7;
+  text-align: center;
+  width: 100%;
+}
+
+.macbook__contents--model {
+  font-size: 56px;
+}
+.macbook__contents--title {
+  color: #555;
+  font-size: 1.2em;
+  
+}
+
+.macbook__links {
+  /* text-decoration: none; */
+  /* color: white; */
+  font-size: 1.2em;
+  
+}
+
+.macbook__links--learn {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #06c;
+  padding: 10px 15px;
+}
+
+.macbook__links--buy {
+  text-decoration: none;
+  color: #06c;
+  border-radius: 20px;
+  padding: 8px 15px ;
+  border: 1px solid #06c;
+}
+
+.macbook__links--buy:hover {
+  background-color: #06c;
+  color: white;
+}
+
+/* .macbook__image--vision { */
+  /* height: 560px; */
+  
+/* } */
+
+
+
+/* iphone style  */
+.iphone__image {
+  background-image: url("../images/iphone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1262px;
+  height: 580px;
+  background-size: 1262px 580px;
+  cursor: pointer;
+}
+.iphone__image {
+  width: 100%;
+}
+
+.iphone {
+  display: inline-block;
+  justify-content: center;
+  color:  #fff;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.iphone__contents--model {
+  font-size: 56px;
+}
+
+.iphone__contents--title {
+  color: #555;
+  padding: 0px;
+  color: #fff;
+}
+
+.iphone__links {
+  padding-top: 8px;
+}
+.iphone__links--learn {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #06c;
+  padding: 10px 15px;
+}
+
+.iphone__links--iphone {
+  text-decoration: none;
+  color: #06c;
+  border-radius: 20px;
+  padding: 8px 15px ;
+  border: 1px solid #06c;
+}
+
+.iphone__links--iphone:hover {
+  background-color: #06c;
+  color: white;
+}
+
+.iphone__image {
+  width: 100%;
+}
+
+/* ipad apple-intelligence  */
+.ipad__image {
+  background-image: url("../images/ipad.jpg");
+  height: 580px;
+  background-size: 700px 580px;
+  cursor: pointer;
+}
+
+.apple__image {
+  background-image: url("../images/Apple_Intelligence.jpg");
+  height: 580px;
+  background-size: 700px 580px;
+  cursor: pointer;
+}
+
+/* last images style  */
+.ipad-apple {
+  display: flex;
+  justify-content: space-between;
+  background-color:  #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* ipad pro style  */
+.ipad {
+  width: 49.5%;
+  color: white;
+}
+/* .ipad__contents { */
+  /* color: white; */
+/* } */
+.ipad__contents--model {
+  font-size: 56px;
+}
+
+.ipad__contents--title {
+  padding: 0px;
+}
+
+.ipad__links {
+  padding-top: 8px;
+}
+.ipad__links--learn {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #06c;
+  padding: 10px 15px;
+}
+
+.ipad__links--ipad {
+  text-decoration: none;
+  color: #06c;
+  border-radius: 20px;
+  padding: 8px 15px ;
+  border: 1px solid #06c;
+}
+
+.ipad__links--ipad:hover {
+  background-color: #06c;
+  color: white;
+}
+
+/* apple intelligence  */
+.apple {
+  width: 49.5%;
+}
+
+.apple__contents--model {
+  font-size: 56px;
+}
+
+.apple__contents--title {
+  color: #555;
+  padding: 0px;
+  color: #555;
+}
+
+.apple__links {
+  padding-top: 8px;
+}
+.apple__links--learn {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #06c;
+  padding: 10px 15px;
+}
+
+.apple__links--apple {
+  text-decoration: none;
+  color: #06c;
+  border-radius: 20px;
+  padding: 8px 15px ;
+  border: 1px solid #06c;
+}
+
+.apple__links--apple:hover {
+  background-color: #06c;
+  color: white;
+}
+
+/* vision pro style   */
+.vision-pro__image {
+  background-image: url("../images/apple_vision_pro.jpg");
+  height: 580px;
+  background-size: 720px 580px;
+  cursor: pointer;
+  color: #000;
+}
+
+.vision-pro__contents {
+  padding-top: 400px;
+}
+
+/* apple card style   */
+.apple-card__image {
+  background-image: url("../images/apple_card.jpg");
+  height: 580px;
+  background-size: 720px 580px;
+  cursor: pointer;
+  color: #000;
+}
+
+/* apple trade in style   */
+.iphone-tradein__image {
+  background-image: url("../images/iphone_tradein.jpg");
+  height: 580px;
+  background-size: 720px 580px;
+  cursor: pointer;
+  color: #000;
+}
+
+/* ======== footer lists style =========  */
+.footer {
+  font-size: 0.7em;
+  color: #555;
+  /* border-color: #F5F5F7; */
+  margin-top: 30px;
+  width: 100%;
+  /* border-color: #444445; */
+  background-color: #F5F5F7;
+  
+}
+.footer-contents {
+  margin: 0 190px;
+  padding-top: 20px;
+  color: gray;
+  font-size: 1.15em;
+}
+
+.footer-contents-text a {
+  color: #555;
+}
+
+.footer h6 {
+  font-weight: 600;
+  margin-bottom: .8em;
+  margin-inline-end: 20px;
+  outline: none;
+  color: gray;
+}
+.footer-lists {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer-lists ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-lists ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1.1em;
+}
+
+.footer-lists ul li a:hover {
+  text-decoration: underline;
+
+}
+
+/* footer End style  */
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-end-lists {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-end-lists ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-end--text {
+  font-size: 1.2em;
+}
+
+.footer-end-lists ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1.2em;
+  padding-right: 10px;
+}
+
+.footer-end-list-right a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1.2em;
+}
+
+
+
+/* last style  */
+.card-iphone {
+  display: flex;
+  justify-content: space-between;
+  background-color:  #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* card pro style  */
+.card {
+  width: 49.5%;
+  color: black;
+}
+.card__contents--model {
+  font-size: 56px;
+}
+
+.card__contents--title {
+  padding: 0px;
+}
+
+.card__links {
+  padding-top: 8px;
+}
+.card__links--learn {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #06c;
+  padding: 10px 15px;
+}
+
+.card__links--card {
+  text-decoration: none;
+  color: #06c;
+  border-radius: 20px;
+  padding: 8px 15px ;
+  border: 1px solid #06c;
+}
+
+.card__links--ipad:hover {
+  background-color: #06c;
+  color: white;
+}
+
+/* apple intelligence  */
+.iphone-tradein {
+  width: 49.5%;
+}
+
+.iphone-tradein_contents--model {
+  font-size: 56px;
+}
+
+.iphone-tradein_contents--title {
+  color: #555;
+  padding: 0px;
+  color: #555;
+}
+
+.iphone-tradein_links {
+  padding-top: 8px;
+}
+.iphone-tradein__links--learn {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #06c;
+  padding: 10px 15px;
+}
+
+/* .iphone-tradein_links--apple {
+  text-decoration: none;
+  color: #06c;
+  border-radius: 20px;
+  padding: 8px 15px ;
+  border: 1px solid #06c;
+} */
+
+.iphone-tradein_links--apple:hover {
+  background-color: #06c;
+  color: white;
+}
