@@ -11,6 +11,7 @@ import { Route, Routes } from "react-router-dom";
 import Iphone from "./components/Iphone";
 import Watch from "./components/Watch";
 import Vision from "./components/Vision";
+import Entertainment from "./components/Entertainment";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/iphone" element={<Iphone />} />
         <Route path="/watch" element={<Watch />} />
         <Route path="/vision" element={<Vision />} />
+        <Route path="/entertainment" element={<Entertainment />} />
       </Routes>
 
       <Footer />
